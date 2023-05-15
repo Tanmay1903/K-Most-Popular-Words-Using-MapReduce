@@ -66,3 +66,6 @@ Example in my case:
   hdfs dfs -cat /data/output16/part-00000 | python3 /Users/tanmaysingla/Desktop/BigDataAssn2/Assn_2_python/result.py
   ```
   
+## Expected Output
+Top 100 Most Frequently used words space seperated with their frequency.
+  
