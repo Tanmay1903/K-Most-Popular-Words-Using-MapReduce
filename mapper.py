@@ -2,7 +2,7 @@
 # import sys because we need to read and write data to STDIN and STDOUT
 import sys
   
-# reading entire line from STDIN (standard input)
+
 stopwords = ['i',
  'me',
  'my',
@@ -131,6 +131,7 @@ stopwords = ['i',
  'should',
  'now']
  
+# reading entire line from STDIN (standard input)
 for line in sys.stdin:
     # to remove leading and trailing whitespace
     line = line.strip()
